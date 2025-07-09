@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Don IILOH Matric Dance Applications</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Apply to be Don IILOH's Matric Dance Partner</h1>
+  </header>
+  <main>
+    <section class="requirements">
+      <h2>Requirements</h2>
+      <ul>
+        <li>Fyneshyts only</li>
+        <li>Shorter than Don</li>
+        <li>Achieved on report</li>
+      </ul>
+    </section>
+    <section class="form-section">
+      <h2>Application Form</h2>
+      <form action="https://formspree.io/f/xblyvvqe" method="POST">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="height">Your Height:</label>
+        <input type="text" id="height" name="height" required>
+
+        <label for="report">Did you achieve on your report? (Yes/No)</label>
+        <input type="text" id="report" name="report" required>
+
+        <label for="why">Why should Don choose you?</label>
+        <textarea id="why" name="why" required></textarea>
+
+        <button type="submit">Submit Application</button>
+      </form>
+    </section>
+  </main>
+</body>
+</html>
